@@ -1,0 +1,39 @@
+.overlay {
+  max-width: 1600px;
+  min-height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url('../images/hero-img.jpg');
+}
+
+.hero {
+  display: flex;
+  background-color: #2f303a;
+
+  margin-bottom: 94px;
+
+  text-align: center;
+  align-items: center;
+}
+
+.hero__title {
+  align-items: center;
+  width: 380px;
+  margin-top: 118px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
