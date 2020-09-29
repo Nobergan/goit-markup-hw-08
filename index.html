@@ -83,7 +83,10 @@
       <!-- Баннер -->
       <section class="hero overlay">
         <div class="container">
-          <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+          <h1 class="hero__title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
           <!-- <p class=""> -->
           <button class="button" data-modal-open>
             <span class="button__text">Заказать услугу</span>
@@ -407,7 +410,7 @@
       <!-- Постоянные клиенты -->
       <section class="clients-section container">
         <h2 class="clients-section__title">Постоянные клиенты</h2>
-        <ul class="clients-list">
+        <ul class="clients-list container">
           <li class="clients-list__item">
             <a href="" class="clients-list__link">
               <svg class="clients-list__icon" width="44" height="49">
@@ -547,7 +550,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden container" data-modal>
       <div class="modal">
         <svg
           width="30"
@@ -571,11 +574,10 @@
           <div class="form-field">
             <label for="name" class="form-field__lable">Имя</label>
             <input
-              type="name"
+              type="text"
               name="name"
               id="name"
               class="form-field__input"
-              autocomplete="off"
               required
               pattern="[A-Za-z0-9\s]+"
               placeholder=" "
@@ -634,8 +636,6 @@
               class="form-field__textarea"
               placeholder="Введите текст"
               id="comment"
-              width="448"
-              height="120"
               required
             ></textarea>
           </div>

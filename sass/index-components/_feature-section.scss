@@ -1,3 +1,63 @@
 .feature-section {
+  margin-bottom: 94px;
+  // height: 251px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//скрыт
+.feature-section__title {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 10px;
+
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.feature-section_list {
+  // display: flex;
+}
+
+.feature-section__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.feature-section__icon-area {
+  // @include flexbox($df: inline-flex, $ai: center, $jc: center, $ta: none);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 120px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  // margin-left: auto;
+}
+
+.feature-section__icons {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+}
+
+.feature-section__desc {
   display: block;
+  text-align: start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  color: $description-text-color;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
