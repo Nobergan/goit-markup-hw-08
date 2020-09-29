@@ -1,6 +1,5 @@
 .clients-section {
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding: 0px;
   margin-bottom: 60px;
 }
 
@@ -27,7 +26,7 @@
   list-style: none;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-left: 0px;
+  padding: 0px;
 }
 
 .clients-list__link {
@@ -36,7 +35,7 @@
   margin: 0px;
   padding: 0px;
 
-  width: 170px;
+  width: 210px;
   height: 90px;
 
   border: 1px solid #afb1b8;
@@ -61,19 +60,23 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-  //   width: calc((100% - 2 * 30px) / 2);
-  margin-right: 30px;
-  width: 170px;
-  margin-bottom: 30px;
-}
+  width: calc((100% - 4 * 15px) / 2);
+  // margin-right: 30px;
+  width: 210px;
+  // margin-bottom: 30px;
+  margin: 15px;
 
-.clients-list__item:nth-child(2n) {
-  margin-right: 0px;
-  //   margin-bottom: 30px;
-}
+  &:last-child {
+    @media screen and (max-width: 479px) {
+      margin-bottom: 0px;
+    }
+  }
 
-.clients-list__item:nth-child(-n + 2) {
-  //   margin-bottom: 0px;
+  &:nth-last-child(-n + 2) {
+    @media screen and (min-width: 480px) {
+      margin-bottom: 0px;
+    }
+  }
 }
 
 .clients-list__icon {
