@@ -22,7 +22,11 @@
 }
 
 .team-list {
-  //   display: flex;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
 .team-list__item {
@@ -39,7 +43,14 @@
   border-radius: 0px 0px 4px 4px;
 
   &:not(:last-child) {
-    margin-bottom: 30px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
   }
 }
 

@@ -21,18 +21,18 @@
 
 .feature-section_list {
   @media screen and (min-width: 768px) {
-    // display: flex;
-    // flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
     margin: -15px;
   }
 }
 
 .feature-section__item {
-  // margin: 0px;
   @media screen and (min-width: 768px) {
     width: calc((100% - 4 * 15px) / 2);
     margin: 15px;
   }
+}
 
 .feature-section__icon-area {
   display: inline-flex;
