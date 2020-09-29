@@ -20,15 +20,21 @@
 }
 
 .feature-section_list {
-  // display: flex;
+  @media screen and (min-width: 768px) {
+    // display: flex;
+    // flex-wrap: wrap;
+    margin: -15px;
+  }
 }
 
-.feature-section__item:not(:last-child) {
-  margin-bottom: 30px;
-}
+.feature-section__item {
+  // margin: 0px;
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 
 .feature-section__icon-area {
-  // @include flexbox($df: inline-flex, $ai: center, $jc: center, $ta: none);
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +46,6 @@
 
   background-color: #f5f4fa;
   border-radius: 4px;
-  // margin-left: auto;
 }
 
 .feature-section__icons {
