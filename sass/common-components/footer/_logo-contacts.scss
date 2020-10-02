@@ -5,4 +5,10 @@
     margin-right: 165px;
     margin-left: auto;
   }
+
+  @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+    margin-left: 0px;
+    text-align: left;
+  }
 }
