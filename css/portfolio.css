@@ -152,6 +152,7 @@ body {
 
 .site-nav__item--active {
   color: #2196f3;
+  padding-bottom: 8px;
 }
 
 .header-contacts {
