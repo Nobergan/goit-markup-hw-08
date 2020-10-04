@@ -14,14 +14,18 @@
   }
 }
 
+// .menu-button__icon-menu {
+//   display: block;
+// }
+
 .menu-button__icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .menu-button__icon-menu {
   display: none;
 }
 
 .menu-button.is-open .menu-button__icon-cross {
   display: block;
-}
-
-.menu-button.is-open .menu-button__icon-menu {
-  display: none;
 }
