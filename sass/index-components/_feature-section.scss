@@ -1,10 +1,6 @@
 .feature-section {
   display: block;
   margin-bottom: 60px;
-  // height: 251px;
-  // display: inline-flex;
-  // justify-content: center;
-  // align-items: center;
 }
 
 //скрыт
@@ -39,26 +35,12 @@
     width: calc((100% - 4 * 15px) / 2);
 
     margin: 15px;
-
-    // &:nth-last-child(-n + 2) {
-    //   margin-bottom: 0px;
-    // }
   }
-
-  // @media screen and (min-width: 768px) {
-  //   .feature-section__item:nth-last-child(-n + 2) {
-  //     margin-bottom: 0px;
-  //   }
 
   @media screen and (min-width: 1200px) {
     width: calc((100% - 4 * 30px) / 4);
     margin: 15px;
     width: 270px;
-    // align-items: center;
-
-    // &:not(:last-child) {
-    //   margin-right: 30px;
-    // }
   }
 }
 

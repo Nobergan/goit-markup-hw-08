@@ -1,5 +1,4 @@
 .footer-form {
-  // width: 450px;
   @media screen and (max-width: 480px) {
     text-align: center;
   }
@@ -36,8 +35,6 @@
 }
 
 .footer-form-flex {
-  // display: flex;
-
   & [name='e-mail'] {
     font-style: normal;
     font-weight: normal;

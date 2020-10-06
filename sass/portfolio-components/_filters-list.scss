@@ -1,15 +1,7 @@
-// .buttons-container {
-//   height: 54px;
-//   margin-top: 96px;
-//   margin-bottom: 34px;
-//   text-align: center;
-// }
-
 .filters-list {
   display: flex;
   flex-wrap: wrap;
-  //   height: 91px;
-  //   max-width: 362px;
+
   margin-bottom: 40px;
   margin-top: 60px;
 
@@ -22,15 +14,9 @@
 
 .filters-list__item {
   margin-right: 8px;
-  //   margin-bottom: 15px;
-
-  //   @media screen and (min-width: 768px) {
-  //     display: inline-table;
-  //   }
 }
 
 .filters-list__item:nth-child(-n + 3) {
-  //   margin-right: 8px;
   margin-bottom: 15px;
 }
 
