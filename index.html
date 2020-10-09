@@ -221,34 +221,67 @@
 
           <ul class="work-section__list list">
             <li class="work-section__item">
-              <img
-                src="./images/what-are-we-doing-1.jpg"
-                alt="Руки пишущие код"
-                width="370"
-                class="work-section__img list"
-              />
+              <picture>
+                <source
+                  srcset="/images/desctop.webp 1x, /images/desctop@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="/images/desctop.jpg 1x, /images/desctop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/desctop.jpg"
+                  alt="Руки пишущие код"
+                  width="370"
+                  class="work-section__img list"
+                />
+              </picture>
               <div class="work-section__box">
                 <p class="work-section__desc">Десктопные приложения</p>
               </div>
             </li>
             <li class="work-section__item">
-              <img
-                src="./images/what-are-we-doing-2.jpg"
-                alt="Тестируют мобильную версию"
-                width="370"
-                class="work-section__img list"
-              />
+              <picture>
+                <source
+                  srcset="/images/mobile.webp 1x, /images/mobile@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="/images/mobilejpg 1x, /images/mobile@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/mobilejpg"
+                  alt="Тестируют мобильную версию"
+                  width="370"
+                  class="work-section__img list"
+                />
+              </picture>
               <div class="work-section__box">
                 <p class="work-section__desc">Мобильные приложения</p>
               </div>
             </li>
             <li class="work-section__item">
-              <img
-                src="./images/what-are-we-doing-3.jpg"
-                alt="Дизайнер рисует на планшете"
-                width="370"
-                class="work-section__img list"
-              />
+              <picture>
+                <source
+                  srcset="/images/design.webp 1x, /images/design@2x.webp 2x"
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="/images/designjpg 1x, /images/design@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/designjpg"
+                  alt="Тестируют мобильную версию"
+                  width="370"
+                  class="work-section__img list"
+                />
+              </picture>
               <div class="work-section__box">
                 <p class="work-section__desc">Дизайнерские решения</p>
               </div>
@@ -263,12 +296,58 @@
           <h2 class="team-section__title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list__item">
-              <img
-                src="./images/our-team-1.jpg"
-                alt="Мужчина в очках с бородой"
-                width="270"
-                class="team-list__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/igor_mobile.webp    1x,
+                    ./images/igor_mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/igor_tablet.webp    1x,
+                    ./images/igor_tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/igor_desktop.webp    1x,
+                    ./images/igor_desktop@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/igor_mobile.jpg    1x,
+                    ./images/igor_mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/igor_tablet.jpg    1x,
+                    ./images/igor_tablet@2x.jpg 2x
+                  "
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/igor_desktop.jpg    1x,
+                    ./images/igor_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/igor_mobile.jpg"
+                  alt="Мужчина в очках и с бородой"
+                  class="team-list__img"
+                />
+              </picture>
               <h3 class="team-list__title">Игорь Демьяненко</h3>
               <p class="team-list__desc">Product Designer</p>
               <ul class="social-links">
@@ -312,12 +391,58 @@
             </li>
 
             <li class="team-list__item">
-              <img
-                src="./images/our-team-2.jpg"
-                alt="Улыбающаяся блондинка в очках и в черном пиджаке"
-                width="270"
-                class="team-list__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/olga_mobile.webp    1x,
+                    ./images/olga_mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga_tablet.webp    1x,
+                    ./images/olga_tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga_desktop.webp    1x,
+                    ./images/olga_desktop@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga_mobile.jpg    1x,
+                    ./images/olga_mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga_tablet.jpg    1x,
+                    ./images/olga_tablet@2x.jpg 2x
+                  "
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/olga_desktop.jpg    1x,
+                    ./images/olga_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/olga_mobile.jpg"
+                  alt="Улыбающаяся блондинка в очках и в черном пиджаке"
+                  class="team-list__img"
+                />
+              </picture>
               <h3 class="team-list__title">Ольга Репина</h3>
               <p class="team-list__desc">Frontend Developer</p>
               <ul class="social-links">
@@ -361,12 +486,58 @@
             </li>
 
             <li class="team-list__item">
-              <img
-                src="./images/our-team-3.jpg"
-                alt="Улыбающийся парень в белой рубашке"
-                width="270"
-                class="team-list__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/nikolay_mobile.webp    1x,
+                    ./images/nikolay_mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay_tablet.webp    1x,
+                    ./images/nikolay_tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay_desktop.webp    1x,
+                    ./images/nikolay_desktop@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay_mobile.jpg    1x,
+                    ./images/nikolay_mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay_tablet.jpg    1x,
+                    ./images/nikolay_tablet@2x.jpg 2x
+                  "
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/nikolay_desktop.jpg    1x,
+                    ./images/nikolay_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/nikolay_mobile.jpg"
+                  alt="Улыбающийся парень в белой рубашке"
+                  class="team-list__img"
+                />
+              </picture>
               <h3 class="team-list__title">Николай Тарасов</h3>
               <p class="team-list__desc">Marketing</p>
               <ul class="social-links">
@@ -410,12 +581,58 @@
             </li>
 
             <li class="team-list__item">
-              <img
-                src="./images/our-team-4.jpg"
-                alt="Мужчина в круглых очках и черной футболке"
-                width="270"
-                class="team-list__img"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/michael_mobile.webp    1x,
+                    ./images/michael_mobile@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/michael_tablet.webp    1x,
+                    ./images/michael_tablet@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/michael_desktop.webp    1x,
+                    ./images/michael_desktop@2x.webp 2x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/michael_mobile.jpg    1x,
+                    ./images/michael_mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <source
+                  srcset="
+                    ./images/michael_tablet.jpg    1x,
+                    ./images/michael_tablet@2x.jpg 2x
+                  "
+                  media="(max-width: 1199px)"
+                />
+                <source
+                  srcset="
+                    ./images/michael_desktop.jpg    1x,
+                    ./images/michael_desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/michael_mobile.jpg"
+                  alt="Мужчина в круглых очках и черной футболке"
+                  class="team-list__img"
+                />
+              </picture>
               <h3 class="team-list__title">Михаил Ермаков</h3>
               <p class="team-list__desc">UI Designer</p>
               <ul class="social-links">
